@@ -6,5 +6,5 @@ ADD . /
 RUN npm install
 
 EXPOSE 9002
-CMD ["node", "/srv/hist-srv.js"] 
+CMD node /srv/hist-srv.js
 
